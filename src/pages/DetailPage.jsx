@@ -18,8 +18,6 @@ const DetailPage = () => {
 
   if (call) {
     for (const property in call) {
-      console.log(`${property}: ${call[property]}`);
-
       let label = property;
       let value = call[property];
 

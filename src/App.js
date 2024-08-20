@@ -26,7 +26,9 @@ const router = createBrowserRouter([
       },
       {
         path: "*",
-        element: <ErrorPage />,
+        element: (
+          <ErrorPage errorCode={404} errorMessage="Error 404 not found" />
+        ),
       },
     ],
   },

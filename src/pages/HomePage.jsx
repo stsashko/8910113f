@@ -16,7 +16,6 @@ const HomePage = () => {
   const callsData = useLoaderData();
   const [calls, setCalls] = useState(callsData);
   const [loadingButton, setLoadingButton] = useState(false);
-
   const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {
